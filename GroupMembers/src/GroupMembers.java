@@ -10,7 +10,7 @@ public class GroupMembers {
 
         // Corrected method call to getFullName
         for (GroupMember member : members) {
-            System.out.println("* " + member.getFullName());
+            System.out.println(member.getFullName());
         }
     }
 }

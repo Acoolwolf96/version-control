@@ -47,4 +47,27 @@ class GroupMember {
     public String getFullName() {
         return firstName + " " + lastName;
     }
+
+class Project {
+    private String projectName;
+    private ArrayList<GroupMember> assignedMembers;
+    
+    public Project(String projectName) {
+        this.projectName = projectName;
+        this.assignedMembers = new ArrayList<>();
+    }
+
+    public void addMember(GroupMember member) {
+        assignedMembers.add(member);
+    }
+    
+    // Printing detils
+    public void printProjectDetails() {
+        System.out.println("Project: " + projectName);
+        System.out.println("Assigned Members:");
+        for (GroupMember member : assignedMembers) {
+        System.out.println("- " + member.getFullName());
+        }
+    }
+    }
 }

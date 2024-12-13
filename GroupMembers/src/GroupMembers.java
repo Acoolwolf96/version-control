@@ -5,7 +5,7 @@ public class GroupMembers {
         // Creating an ArrayList to store group members
         ArrayList<GroupMember> members = new ArrayList<>();
         members.add(new GroupMember("Nelson", "Njoku"));
-
+        members.add(new GroupMember("Ramya", "Devi"));
         System.out.println("Group Members:");
 
         // Corrected method call to getFullName

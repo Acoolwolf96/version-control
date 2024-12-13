@@ -47,7 +47,7 @@ class GroupMember {
     public String getFullName() {
         return firstName + " " + lastName;
     }
-
+//creating a class
 class Project {
     private String projectName;
     private ArrayList<GroupMember> assignedMembers;
